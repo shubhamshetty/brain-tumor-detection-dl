@@ -20,6 +20,15 @@ This project leverages machine learning and deep learning techniques to detect b
 - Confusion Matrix
 - Grad-CAM Visuals
 
+## 📈 Results Summary
+| Model          | Accuracy |
+|----------------|----------|
+| SVM            | 76%      |
+| Random Forest  | 89%      |
+| CNN (EffNetB0) | 92.12%   |
+
+Grad-CAM visualizations were used to interpret CNN model predictions.
+
 ## 🧠 Dataset
 - Source: [Kaggle Brain Tumor Dataset](https://www.kaggle.com/datasets/sartajbhuvaji/brain-tumor-classification-mri)
 - Classes: Glioma, Meningioma, Pituitary, No Tumor
